@@ -1,0 +1,192 @@
+.chromestyle{
+	width: 565px;
+	font-weight: bold;
+	padding: 0px;
+	float: left;
+	margin: 0px;
+	height: 50px;
+}
+
+.chromestyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.chromestyle ul{
+	border: 1px none #BBB;
+	width: auto;
+	margin: 0;
+	text-align: center;
+	padding: 0px;
+}
+
+.chromestyle ul li{
+	display: inline;
+	height: 50px;
+	width: 93px;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 1px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.chromestyle ul li a{
+	color: #000;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	border-right-width: 1px;
+	border-right-style: none;
+	border-right-color: #DADADA;
+	width: 93px;
+	height: 50px;
+	display: block;
+	float: left;
+	padding: 0px;
+	line-height: 3.4em;
+	background-image: url(../images/navi.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+}
+
+.chromestyle ul li a:hover, .chromestyle ul li a.selected{ /*script dynamically adds a class of "selected" to the current active menu item*/
+	background-image: url(../images/navihighlight.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	color: #FFF;
+}
+#navihighlight {
+	background-image: url(../images/navihighlight.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 50px;
+	width: 93px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	line-height: 3.5em;
+	padding: 0px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 13px;
+}
+#navihighlightservices {
+	background-image: url(../images/navihighlightservices.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 50px;
+	width: 93px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	line-height: 3.5em;
+	padding: 0px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+	position:absolute;
+	top: 0px;
+	line-height:25px;
+	z-index:1500;
+	width: 190px;
+	visibility: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	height: 100px;
+	display: block;
+	background-image: none;
+	border: 3px outset #0866A4;
+	padding: 0px;
+	margin-top: -1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+
+
+.dropmenudiv a{
+	width: 170px;
+	display: block;
+	text-indent: 10px;
+	text-decoration: none;
+	font-weight: normal;
+	color: #FFF;
+	padding-top: 8px;
+	padding-right: 10px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #71c7fd;
+	height: auto;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #3eaef5;
+	margin: 0px;
+	background-image: url(../images/submenuarrow.jpg);
+	background-repeat: no-repeat;
+	background-position: 10px 15px;
+	line-height: 1.7em;
+}
+
+* html .dropmenudiv a{ /*IE only hack*/
+
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+	background-repeat: no-repeat;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	background-image: url(../images/submenuarrowover.jpg);
+	margin: 0px;
+	text-indent: 10;
+
+}
+@media screen and (max-width: 979px) {
+	#navihighlightservices {
+	background-image: url(../images/navihighlightservices.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 50px;
+	width: 93px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	line-height: 3.5em;
+	padding: 0px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 13px;
+	background-color: #458fc0;
+}
+	
+}

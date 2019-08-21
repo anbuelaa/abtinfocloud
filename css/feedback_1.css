@@ -1,0 +1,105 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.contactdiv {
+    margin: 2px;
+    overflow: hidden;
+    padding: 1px;
+}
+#contact-wrapper1 {
+    border: 1px none #e2e2e2;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    padding: 0;
+    width: 100%;
+}
+#contact-wrapper1 label {
+    display: block;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin-right: 5%;
+    text-align: right;
+    width: 20%;
+}
+.quotetext {
+    background-color: #f0f0f0;
+    border: 1px solid #fff;
+    box-shadow: 0 0 1px #666666;
+    color: #000;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    height: 18px;
+    margin: 0;
+    text-decoration: none;
+    width: 70%;
+}
+.quotetext:hover {
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0 1px #666666;
+    color: #000;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    text-decoration: none;
+}
+.quotetextarea {
+    background-color: #f0f0f0;
+    border: 1px solid #fff;
+    box-shadow: 0 0 1px #666666;
+    color: #000;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    height: 45px;
+    margin: 0;
+    resize: none;
+    text-decoration: none;
+    width: 70%;
+}
+.quotetextarea:hover {
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0 1px #666666;
+    color: #000;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    text-decoration: none;
+}
+.select {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    width: 150px;
+}
+.btn {
+    background-color: #900;
+    border: 2px solid #900;
+    color: #fff;
+    font-family: Arial,Helvetica,sans-serif;
+    margin-left: 180px;
+    margin-top: 5px;
+    padding: 4px;
+}
+.btn:hover {
+    background-color: #cc0000;
+    border: 2px solid #cc0000;
+    color: #fff;
+    font-family: Arial,Helvetica,sans-serif;
+    padding: 4px;
+}
+.starb {
+    color: #f00;
+    font-size: 13px;
+    font-weight: bold;
+}
